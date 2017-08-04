@@ -1,0 +1,13 @@
+ManifestFileVersion: 0
+CRC: 3354419853
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: canvas
+      Dependencies: {}
+    Info_1:
+      Name: newspriteatlas2
+      Dependencies: {}
+    Info_2:
+      Name: newspriteatlas1
+      Dependencies: {}

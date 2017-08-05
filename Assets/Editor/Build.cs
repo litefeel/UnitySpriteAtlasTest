@@ -33,7 +33,8 @@ public class Build : MonoBehaviour {
         if (!Directory.Exists(path))
             Directory.CreateDirectory(path);
         BuildPipeline.BuildAssetBundles(path,
-            BuildAssetBundleOptions.ForceRebuildAssetBundle,
+            BuildAssetBundleOptions.None,
+            //BuildAssetBundleOptions.ForceRebuildAssetBundle,
             //|BuildAssetBundleOptions.IgnoreTypeTreeChanges
             //|BuildAssetBundleOptions.DeterministicAssetBundle,
             buildTarget);

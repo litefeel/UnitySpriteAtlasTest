@@ -16,9 +16,7 @@ public class PlatformPath {
                 return "Android";
             case UnityEditor.BuildTarget.iOS:
                 return "iOS";
-            case UnityEditor.BuildTarget.StandaloneOSXIntel:
-            case UnityEditor.BuildTarget.StandaloneOSXIntel64:
-            case UnityEditor.BuildTarget.StandaloneOSXUniversal:
+            case UnityEditor.BuildTarget.StandaloneOSX:
                 return "Mac";
             default:
                 return "Unknow";

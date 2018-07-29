@@ -29,7 +29,7 @@ public class LoadAsset : MonoBehaviour {
         StartCoroutine(DoLoadAsset(delay));
 	}
 
-    private static SpriteAtlas LoadSpriteAtlas(string tag)
+    public static SpriteAtlas LoadSpriteAtlas(string tag)
     {
         var saab = AssetBundle.LoadFromFile(PlatformPath.StreamingPath(tag.ToLower()));
         var sa = saab.LoadAsset<SpriteAtlas>(tag);

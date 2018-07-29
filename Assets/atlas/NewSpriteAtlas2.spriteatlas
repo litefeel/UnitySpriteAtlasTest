@@ -3,51 +3,58 @@
 --- !u!687078895 &4343727234628468602
 SpriteAtlas:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: NewSpriteAtlas2
   m_EditorData:
+    serializedVersion: 2
     textureSettings:
+      serializedVersion: 2
       anisoLevel: 1
       compressionQuality: 50
       maxTextureSize: 2048
       textureCompression: 0
-      colorSpace: 1
       filterMode: 1
       generateMipMaps: 0
       readable: 0
       crunchedCompression: 0
-    platformSettings: []
-    packingParameters:
-      paddingPower: 2
+      sRGB: 0
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
       blockOffset: 1
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 1
-    packedHash:
-      serializedVersion: 2
-      Hash: 7c76f3866516f3e5b3ffb81bdf0a88b7
     variantMultiplier: 1
-    bindAsDefault: 0
-    finalFormat: 4
-    hashString: 7c76f3866516f3e5b3ffb81bdf0a88b7
-    totalSpriteSurfaceArea: 10960
     packables:
     - {fileID: 2800000, guid: a5fdc397ca05973409626e76405c827e, type: 3}
     - {fileID: 2800000, guid: 8c3aa5211b2e7194180d843b0cb1ce1f, type: 3}
     - {fileID: 2800000, guid: fcf80117c712cbc449c85dbe1ab6ba0f, type: 3}
-    packedSpriteRenderDataKeys:
-    - fcf80117c712cbc449c85dbe1ab6ba0f: 21300000
-    - a5fdc397ca05973409626e76405c827e: 21300000
-    - 8c3aa5211b2e7194180d843b0cb1ce1f: 21300000
+    - {fileID: 2800000, guid: 7f64efc1ae3c798478118d5c19542acf, type: 3}
+    bindAsDefault: 0
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300000, guid: 8c3aa5211b2e7194180d843b0cb1ce1f, type: 3}
+  - {fileID: 21300000, guid: 7f64efc1ae3c798478118d5c19542acf, type: 3}
   - {fileID: 21300000, guid: fcf80117c712cbc449c85dbe1ab6ba0f, type: 3}
   - {fileID: 21300000, guid: a5fdc397ca05973409626e76405c827e, type: 3}
-  - {fileID: 21300000, guid: 8c3aa5211b2e7194180d843b0cb1ce1f, type: 3}
   m_PackedSpriteNamesToIndex:
+  - 05
+  - big
   - 06
   - 04
-  - 05
   m_Tag: NewSpriteAtlas2
   m_IsVariant: 0

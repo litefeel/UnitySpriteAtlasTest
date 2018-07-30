@@ -24,8 +24,13 @@ public class Build : MonoBehaviour {
         BuildAssetBundle(BuildTarget.Android);
         BuildAssetBundle(BuildTarget.StandaloneWindows64);
     }
+    [MenuItem("AssetBundles/BuildIos")]
+    public static void BuildIos()
+    {
+        BuildAssetBundle(BuildTarget.iOS);
+    }
 
-    
+
 
     private static void BuildAssetBundle(BuildTarget buildTarget)
     {

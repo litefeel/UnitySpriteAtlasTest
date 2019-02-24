@@ -1,4 +1,4 @@
-# UnitySpriteAltasTest
+# UnitySpriteAtlasTest
 
 Unity SpriteAtlas 测试
 
